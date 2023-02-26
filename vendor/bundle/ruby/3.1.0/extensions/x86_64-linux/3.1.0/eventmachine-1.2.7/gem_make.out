@@ -1,0 +1,16 @@
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-h11l0e sitelibdir\=./.gem.20230226-25433-h11l0e clean
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-h11l0e sitelibdir\=./.gem.20230226-25433-h11l0e
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-h11l0e sitelibdir\=./.gem.20230226-25433-h11l0e install
+/bin/install -m 0755 fastfilereaderext.so ./.gem.20230226-25433-h11l0e

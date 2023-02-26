@@ -1,0 +1,30 @@
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.6/ext
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for rb_ext_ractor_safe()... yes
+checking for &rb_fiber_transfer()... yes
+checking for -luring... no
+checking for sys/epoll.h... yes
+checking for EV_UDATA_SPECIFIC in sys/event.h... no
+checking for sys/eventfd.h... yes
+checking for rb_io_descriptor()... yes
+checking for &rb_process_status_wait()... no
+checking for rb_fiber_current()... yes
+checking for &rb_fiber_raise()... yes
+checking for ruby/io/buffer.h... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.6/ext
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-grxryb sitelibdir\=./.gem.20230226-25433-grxryb clean
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.6/ext
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-grxryb sitelibdir\=./.gem.20230226-25433-grxryb
+compiling ./io/event/event.c
+compiling ./io/event/selector/selector.c
+compiling ./io/event/selector/epoll.c
+compiling ./io/event/interrupt.c
+linking shared-object IO_Event.so
+
+current directory: /home/chacha/Development/code/phase3/assignments/phase-3-intro-to-sinatra/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.6/ext
+make DESTDIR\= sitearchdir\=./.gem.20230226-25433-grxryb sitelibdir\=./.gem.20230226-25433-grxryb install
+/bin/install -m 0755 IO_Event.so ./.gem.20230226-25433-grxryb
